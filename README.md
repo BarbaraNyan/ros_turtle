@@ -1,5 +1,5 @@
 # ros_turtle
-This code allows /turtle1 to follow /turtle2 </br>
+This code allows /turtle2 to follow /turtle1 </br>
 (/turtle1 is controlled by turtle_teleop_key)
 
 # Steps:
