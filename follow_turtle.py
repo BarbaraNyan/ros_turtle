@@ -22,7 +22,7 @@ class my_class:
 		
 		self.sub2 = rospy.Subscriber('/turtle2/pose', Pose, self.listener_turtle2)
 		self.sub3 = rospy.Subscriber('/turtle1/pose', Pose, self.listener_turtle1)	
-    self.sub1 = rospy.Subscriber('/turtle1/cmd_vel', Twist, self.follow_func)
+    		self.sub1 = rospy.Subscriber('/turtle1/cmd_vel', Twist, self.follow_func)
 
 	def follow_func(self, msg):
 		new_msg = Twist()
